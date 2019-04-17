@@ -1,4 +1,5 @@
 import string
+# refactoring https://github.com/sobolevn/python-code-disasters/blob/master/python/my_first_calculator.py
 
 if 3/2 == 1:  # Because Python 2 does not know maths
         input = raw_input  # Python 2 compatibility
