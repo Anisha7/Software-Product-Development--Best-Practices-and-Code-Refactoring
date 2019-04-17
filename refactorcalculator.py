@@ -70,5 +70,5 @@ if __name__ == "__main__":
     # num2 = int(input('Please choose your second number: '))
     # print('RESULT: %d'%calculator(num1, num2, sign))
 
-    equation = input("Give me a equation without parantheses, using +, -, /, or *\n")
+    equation = input("Give me a equation using parantheses for order, using +, -, /, or *\n")
     print('RESULT: %d'%advancedCalculator(equation))
