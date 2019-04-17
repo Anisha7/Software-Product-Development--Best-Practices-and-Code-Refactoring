@@ -37,7 +37,7 @@ def advancedCalculator(equation, sign='+', acc=0, i = 0):
         return acc
 
     curr = equation[i]
-    # TODO: check if reached a parantheses: if so, evaluate that
+    # check if reached a parantheses: if so, evaluate that
     if (curr == '('):
         # pass
         # find the index for the closing parenthesis for this parenthesis
